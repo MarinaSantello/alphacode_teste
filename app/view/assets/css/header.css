@@ -1,0 +1,11 @@
+#header {
+    background-color: var(--bs-blue);
+    height: 16vh;
+}
+
+#logo_title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--bs-white);
+}

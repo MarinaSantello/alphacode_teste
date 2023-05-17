@@ -1,0 +1,66 @@
+/* INPUTS */
+main {
+    min-height: 70vh;
+    margin: 8vh 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: none;
+    padding: 0;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid var(--bs-gray);
+    border-radius: 0;
+}
+
+.form-control:focus, 
+.col:hover .form-control{
+    border-bottom: 1px solid var(--bs-blue);
+    box-shadow: none;
+}
+
+.col:hover .form-label,
+.col:focus-within .form-label {
+    color: var(--bs-blue);
+}
+
+/* CHECKBOXES*/
+.form-check-input:checked,
+.form-check-input:empty {
+    box-shadow: none;
+}
+
+/* BUTTON */
+.btn {
+    background-color: var(--bs-blue);
+}
+
+.btn:hover {
+    background-color: var(--bs-blue-dark);
+}
+
+/* COLUMNS */
+#columns {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#row_title {
+    background-color: var(--bs-blue);
+}
+
+#row_title
+th {
+    padding: 12px;
+}
+
+.fw-light {
+    margin: 0 auto;
+}
